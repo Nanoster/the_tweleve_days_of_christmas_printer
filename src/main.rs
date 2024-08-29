@@ -15,7 +15,7 @@ fn verse_input() -> u32{
     println!("본 프로그램은 크리스마스 캐롤  ‘The Twelve Days of Christmas’ 노래의 가사를 확인 할 수 있는 프로그램입니다.");
 
     loop{
-        // 입력 안내물 출력
+        // 입력 안내문 출력
         print!("노래에서 알고싶은 절의 숫자 n(1~12)를 입력해주세요(종료하려면 0) : ");
         io::stdout().flush().expect("failed to flush stdout");
 
